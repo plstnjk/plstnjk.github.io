@@ -69,5 +69,9 @@ footer {
     .card {
         margin-bottom: 15px;
     }
+
+    footer {
+        font-size: 13px;
+    }
 }
 
