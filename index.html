@@ -6,23 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="public/main.css">
     <title>Portfolio</title>
 </head>
 
 <body>
-    <div class="container">
-        <h1>Irena Jovanovska Plestenjak</h1>
-        <hr>
-        <p><a href="http://campsitehub.herokuapp.com">CampsiteHub</a> /
-            <a href="https://irenajovanowska.github.io/color-guessing-game/">Guess the color</a> /
-            <a href="https://irenajovanowska.github.io/to-do-list/">To-do list</a></p>
+    <section class="banner">
+        <img src="https://avatars2.githubusercontent.com/u/14894635?s=460&u=9d2e0024c71795f936e2c10a37bf52d3814f0269&v=4"
+            alt="profile-pic">
+        <h1><i class="fas fa-terminal"></i> Irena Jovanovska Plestenjak</h1>
+        <h5>Software Testing Engineer</h5>
+        <br>
+        <h2 class="social-links"><a href="https://linkedin.com/in/irenajovanowska"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/irenajovanowska"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/irenajovanowska"><i class="fab fa-github"></i></a>
+        </h2>
+    </section>
 
-        <footer>
-            <a href="https://github.com/irenajovanowska">GitHub</a>
-        </footer>
-    </div>
+    <section class="hello-world">
+        <div class="container">
+            <h2 class="section-title">helloWorld()</h2>
+            <br>
+            <div class="section-content">
+                <p>Hi there! I'm Irena and I'm a Software Testing Engineer.
+                    I've been working in tech for the past five years with a mission to help teams build and ship
+                    the right products.
+                    With the rising demand of faster 'time-to-market' it's inevitable not to have automated tests in
+                    the delivery pipeline.
+                    As a response to this I'm currently exploring all things automation in testing, with a focus on
+                    <strong>Selenium WebDriver</strong>, <strong>Cypress</strong> and <strong>REST Assured</strong>.
+                    I'm also experimenting with web development and pursuing <strong>Java/JavaScript</strong>
+                    proficiency.</p>
+            </div>
+            <hr>
+        </div>
+
+    </section>
+
+    <section class="fetch-projects">
+
+        <div class="container">
+            <h2 class="section-title">fetchProjects()</h2>
+            <br>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-lg-4 mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">CampsiteHub</h4>
+                                <p class="card-text">Node.js / Express / MongoDB / Bootstrap</p>
+                                <a href="http://campsitehub.herokuapp.com" class="btn btn-outline-dark btn-sm">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Guess the color</h4>
+                                <p class="card-text">HTML / CSS / JavaScript</p>
+                                <br>
+                                <a href="https://irenajovanowska.github.io/color-guessing-game/"
+                                    class="btn btn-outline-dark btn-sm">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">To-do list</h4>
+                                <p class="card-text">HTML / CSS / JavaScript / jQuery</p>
+                                <a href="https://irenajovanowska.github.io/to-do-list/"
+                                    class="btn btn-outline-dark btn-sm">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+
+            </div>
+            <hr>
+    </section>
+
+    <section class="fetch-resume">
+        <div class="container">
+            <h2 class="section-title">fetchResume()</h2>
+            <br>
+            <div class="section-content">
+                <a class="btn btn-outline-dark"
+                    href="https://raw.githubusercontent.com/irenajovanowska/irenajovanowska/master/public/Irena_Jovanovska_Resume_v1.0.pdf">Download
+                    Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p><i class="far fa-copyright"></i> 2020 Irena Jovanovska Plestenjak</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
